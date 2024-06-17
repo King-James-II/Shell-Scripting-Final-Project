@@ -48,8 +48,6 @@ cd $origAbsPath
 cd $targetDirectory
 
 # [TASK 8]
-tomorrowTS=$(($currentTS + 24 * 60 * 60))
-
 yesterdayTS=$(($currentTS - 24 * 60 * 60))
 
 declare -a toBackup
